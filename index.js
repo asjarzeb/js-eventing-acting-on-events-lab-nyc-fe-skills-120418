@@ -3,7 +3,7 @@
 const dodger = document.getElementById('dodger')
 
 function onKeyDown(event) {
-  if (event.keycode === 37) {
+  if (event.keyCode === 37) {
     // how do we actually move this?
     
     console.log(dodger.style.left)
@@ -13,4 +13,4 @@ function onKeyDown(event) {
 
 // 2. Add eventListener
 
-dodger.eventListener('keydown', onKeyDown)
+document.eventListener('keydown', onKeyDown)
