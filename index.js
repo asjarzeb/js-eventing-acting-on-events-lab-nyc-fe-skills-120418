@@ -20,6 +20,8 @@ function onKeyDown(event) {
 
 function moveDodgerRight() {
   const currentPosition = parseInt(dodger.style.left)
+  
+   dodger.style.left = currentPosition + 5 + 'px'
 }
 
 // 2. Add eventListener
