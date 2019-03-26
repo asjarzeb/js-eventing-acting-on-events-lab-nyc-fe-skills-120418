@@ -21,7 +21,7 @@ function onKeyDown(event) {
 }
     
   }
-
+}
 function moveDodgerRight() {
   const currentPosition = parseInt(dodger.style.left)
   
