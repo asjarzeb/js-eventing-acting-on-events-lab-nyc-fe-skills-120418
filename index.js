@@ -11,9 +11,12 @@ function onKeyDown(event) {
   if (currentPosition - 5 >= 0) {
     dodger.style.left = currentPosition - 5 + 'px'  // (175)
    }
+   
+   
   } else if (event.keyCode === 39) {
      const currentPosition = parseInt(dodger.style.left)
   
+   if (currentPosition - 5 >= 400) {
     dodger.style.left = currentPosition + 5 + 'px'
   }
 }
