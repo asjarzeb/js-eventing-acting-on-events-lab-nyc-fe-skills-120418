@@ -13,4 +13,4 @@ function onKeyDown(event) {
 
 // 2. Add eventListener
 
-document.eventListener('keydown', onKeyDown)
+document.addEventListener('keydown', onKeyDown)
